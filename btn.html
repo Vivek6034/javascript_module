@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1 id="head">
+    </h1>
+
+    <button id="btn" onclick="fun()"> Show</button>
+
+    <script>
+        let status = false
+
+        function fun(){
+            let h = document.querySelector('#head')
+            let btn = document.querySelector('#btn')
+
+            status = !status
+            if(status){
+                h.innerHTML="Cybrom"
+                btn.innerHTML='Hide'
+
+            }
+            else{
+                h.innerHTML=""
+                btn.innerHTML='Show'
+            }
+        }
+    </script>
+</body>
+</html>

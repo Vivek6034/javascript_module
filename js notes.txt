@@ -1,0 +1,42 @@
+lunched in 1995
+founder is " BRENDEN EICH"
+
+* Name of js :-
+..> MOCHA 
+..> LIVE SCRIPT
+..> JAVA SCRIPT
+
+* Types of site:-
+ 1)client site(browser)
+ 2) server site
+
+* Types of css:-
+1) internal "<script> </script>"
+
+2) external->" file.js"
+
+*operator..
+->JavaScript Operators are symbols used to perform specific mathematical,
+ comparison, 
+ assignment, and logical computations on operands.
+================
+======function=========
+#function:-
+
+arroow function
+iiffe function
+callback function
+named function
+anonymus function
+predefined
+user defined;
+	no argument no return
+	no argument wth return
+
+***function most importaant thing;
+
+	function declaration
+	function definition
+	function calling
+**Events
+ 
