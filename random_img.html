@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Random image</h1>
+    code<p id="randomimage"></p>
+    <!-- <img  id=" randomimage" alt="" src="" set=""> -->
+    <button onclick="random()"> click to change</button>
+
+
+    <script>
+        let x  = ["../images/04.jpg",
+        "../images/b111.jpg",
+        "../images/i003.avif"
+        ]
+        console.log(x[0])
+
+        const random=()=>{
+         let y = Math.floor(Math.random()*x.length)
+        
+        document.getElementById("randomimage").innerHTML="<img src = "+x[y]+" height=300px, width=300px >";
+        }
+    </script>
+</body>
+</html>

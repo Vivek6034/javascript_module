@@ -8,8 +8,6 @@
 const fun = ()=>{
     let st1 = document.querySelector("#stat1") 
     st1.innerHTML = Math.trunc(Math.random()*20+1)
-    
-    
 }
 const cng2 = () =>{
     let st2 = document.querySelector("#stat2") 
